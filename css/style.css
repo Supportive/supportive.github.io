@@ -1,11 +1,33 @@
 /* ==== Google font ==== */
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+.boxed-grey-maps {
+	background: #f9f9f9;
+	padding: 20px;
+	left:50%;
+	overflow:hidden;
+	
+	position:relative;
+}
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+	;
+    height:0;
+	left:52%;
+}
+.map-responsive-contact{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    height:0;
+	left:5%;
+}
 
 .first-letter { margin-left: 50px; font-size: 10.5pt;  margin-bottom: 5px;
 }
 
-.second-letter {margin-bottom: -1px font-size: 10.5pt;
+.second-letter {margin-bottom: -1px;
+ font-size: 10.5pt;
 }
 
 .text-muted {
@@ -384,6 +406,7 @@ hr {
 	background: #f9f9f9;
 	padding: 20px;
 }
+
 
 .team h5 {
 	margin-bottom: 10px;
